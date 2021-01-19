@@ -1,0 +1,11 @@
+spring:
+  redis:
+    hostName: 10.10.60.65
+    password: iqianjin@123
+    port: 6379
+    timeout: 3000
+    pool:
+      maxIdle: 100
+      minIdle: 1
+      maxTotal: 200
+      maxWaitMillis: -1
